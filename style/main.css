@@ -179,9 +179,12 @@ h1, h2, h3, h4, h5, h6, p {
     width: 89px;
     height: 89px;
     border-radius: 100%;
-    margin-top: -35px;
+    margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("../souce/profile-img.jpg");
+    background-size: cover;
+
 }
 
 .pageBody {
@@ -356,8 +359,38 @@ table {
     width: 33%;
     float: left;
     padding: 2px;
+    overflow: hidden;
+    height: 0;
+    padding-bottom:33%;
 }
 
 .my-gallery img {
     width: 100%;
+}
+
+.introTitle {
+    font-family:PingFangSC-Regular;
+    font-size:14px;
+    color: #666666;
+    letter-spacing:1px;
+    padding: 0;
+    margin-bottom: 17px;
+    margin-top: 20px;
+}
+
+.p2 {
+    color: #999999;
+    font-style: 12px;
+}
+
+figcaption {
+    display: none;
+}
+
+.works {
+    margin-bottom: 50px;
+}
+
+.photo-hide {
+    display: none;
 }
