@@ -6,6 +6,7 @@
 
 h1, h2, h3, h4, h5, h6, p {
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .nav {
@@ -138,6 +139,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding-top: 47px;
 }
 
+.firstCard {
+    height: 200px;
+}
+
 .cardTitle {
     font-family: PingFangSC-Regular;
     font-size: 22px;
@@ -152,6 +157,8 @@ h1, h2, h3, h4, h5, h6, p {
     letter-spacing: 0px;
     text-align: center;
     margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .foot {
@@ -182,7 +189,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: -60px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../souce/profile-img.jpg");
+    background-image: url("http://oel1upx1g.bkt.clouddn.com/souce/profile-img.jpg");
     background-size: cover;
 
 }
@@ -196,7 +203,7 @@ h1, h2, h3, h4, h5, h6, p {
 .timeLine {
     border:1px dashed #dddddd;
     width:1px;
-    height:400px;
+    height:430px;
     position: absolute;
     margin-left: 45px;
     z-index: 1;
@@ -211,7 +218,7 @@ h1, h2, h3, h4, h5, h6, p {
     float: left;
     margin-right: 30px;
     /*margin-left: -50px;*/
-    height: 150px;
+    height: 100px;
 }
 
 .endTime span {
@@ -246,7 +253,9 @@ h1, h2, h3, h4, h5, h6, p {
     font-size:14px;
     color:#999999;
     letter-spacing:0px;
-    text-align:left;
+    text-align:justify;
+    display: flex;
+    padding: 0;
 }
 
 .info {
@@ -269,7 +278,7 @@ h1, h2, h3, h4, h5, h6, p {
     color:#999999;
     letter-spacing:0px;
     line-height:22px;
-    text-align:center;
+    text-align: justify;
     margin-bottom: 20px;
 }
 
@@ -313,7 +322,7 @@ table {
     color:#333333;
     letter-spacing:10px;
     text-align:left;
-    width: 30%;
+    width: 50%;
 }
 
 .SkillSubscribe {
